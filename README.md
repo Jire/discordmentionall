@@ -1,7 +1,7 @@
 # Discord Mention All
 _Lets you do **@everyone** without permission_
 
-#### What's the setup process?
+### What's the setup process?
 
 Since this software is deliberately malicious, I will not release binaries for it.  
 If you want to use it, you must compile it from the source code.
@@ -9,12 +9,12 @@ If you want to use it, you must compile it from the source code.
 Just configure settings inside `Settings.kt` then signal message  
 to the Discord server you want to mention all on.
 
-#### How do I get my Discord token?
+### How do I get my Discord token?
 
 Check out this great video tutorial:  
 https://www.youtube.com/watch?v=drX1M9vW7fE
 
-#### How do I protect my Discord server from this software?
+### How do I protect my Discord server from this software?
 
 You can use any Discord bot that prevents mass-mention.  
 I personally use [MEE6](https://mee6.xyz), just go to the
@@ -22,7 +22,7 @@ moderator plugin settings and enable delete message & warn author for mass menti
 
 ![](https://i.imgur.com/pZNrpHO.png)
 
-#### [License (Unlicense)](https://github.com/Jire/discordmentionall/blob/master/LICENSE.txt)
+### [License (Unlicense)](https://github.com/Jire/discordmentionall/blob/master/LICENSE.txt)
 
 This software is released into the public domain via [Unlicense](http://unlicense.org/).
 
