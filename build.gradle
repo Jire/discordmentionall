@@ -1,0 +1,44 @@
+buildscript {
+	ext.kotlin_version = '1.2.41'
+	
+	repositories {
+		mavenCentral()
+	}
+	dependencies {
+		classpath "org.jetbrains.kotlin:kotlin-gradle-plugin:$kotlin_version"
+	}
+}
+
+plugins {
+	id 'java'
+}
+
+group 'org.jire.discordmentionall'
+version '0.1.0'
+
+apply plugin: 'kotlin'
+
+sourceCompatibility = 1.6
+
+repositories {
+	mavenCentral()
+	maven {
+		url "https://dl.bintray.com/dv8fromtheworld/maven"
+	}
+}
+
+dependencies {
+	compile group: 'org.jetbrains.kotlin', name: 'kotlin-stdlib', version: kotlin_version
+	compile group: 'net.dv8tion', name: 'JDA', version: '3.6.0_368'
+	compile group: 'org.apache.logging.log4j', name: 'log4j-core', version: '2.11.0'
+	compile group: 'org.apache.logging.log4j', name: 'log4j-api', version: '2.11.0'
+	compile group: 'org.apache.logging.log4j', name: 'log4j-slf4j-impl', version: '2.11.0'
+}
+
+compileKotlin {
+	kotlinOptions.jvmTarget = "1.6"
+}
+
+compileTestKotlin {
+	kotlinOptions.jvmTarget = "1.6"
+}
