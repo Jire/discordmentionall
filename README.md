@@ -16,9 +16,10 @@ https://www.youtube.com/watch?v=drX1M9vW7fE
 
 ### How do I protect my Discord server from this software?
 
-You can use any Discord bot that prevents mass-mention.  
-I personally use [MEE6](https://mee6.xyz), just go to the
-moderator plugin settings and enable delete message & warn author for mass mention.
+You can use any Discord bot that prevents mass-mention.
+
+I personally use [MEE6](https://mee6.xyz) for this. To set it up just go to the moderator plugin  
+settings and enable delete message & warn author for mass mention.
 
 ![](https://i.imgur.com/pZNrpHO.png)
 
