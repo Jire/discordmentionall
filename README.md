@@ -1,6 +1,11 @@
 # Discord Mention All
 _Lets you do **@everyone** without permission_
 
+This works by manually @'ing members as fast as possible,  
+and then deleting the mention message. This means it is limited  
+to around 200 mentions per second, because of Discord's maximum  
+message length.
+
 ### What's the setup process?
 
 Since this software is deliberately malicious, I will not release binaries for it.  
