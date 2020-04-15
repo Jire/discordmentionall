@@ -27,8 +27,8 @@
 
 package org.jire.discordmentionall
 
-import net.dv8tion.jda.core.AccountType
-import net.dv8tion.jda.core.JDABuilder
+import net.dv8tion.jda.api.AccountType
+import net.dv8tion.jda.api.JDABuilder
 
 /**
  * @author Thomas G. P. Nappo (Jire)
@@ -39,7 +39,8 @@ object Main {
 	fun main(args: Array<String>) {
 		val jda = JDABuilder(AccountType.CLIENT)
 				.setToken(Settings.TOKEN)
-				.buildAsync()
+				.build()
+				.awaitReady()
 		jda.addEventListener(DiscordListener)
 	}
 	
