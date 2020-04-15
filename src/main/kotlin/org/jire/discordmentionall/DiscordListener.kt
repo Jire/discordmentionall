@@ -27,9 +27,10 @@
 
 package org.jire.discordmentionall
 
-import net.dv8tion.jda.core.events.message.guild.GuildMessageReceivedEvent
-import net.dv8tion.jda.core.hooks.ListenerAdapter
-import net.dv8tion.jda.core.entities.*
+import net.dv8tion.jda.api.entities.Member
+import net.dv8tion.jda.api.entities.TextChannel
+import net.dv8tion.jda.api.events.message.guild.GuildMessageReceivedEvent
+import net.dv8tion.jda.api.hooks.ListenerAdapter
 
 /**
  * @author Thomas G. P. Nappo (Jire)
